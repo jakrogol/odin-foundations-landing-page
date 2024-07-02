@@ -3,7 +3,6 @@
 }
 
 body {
-  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -121,11 +120,36 @@ body {
 }
 
 .call-to-action {
+  max-width: 800px;
   background-color: #3882F6;
+  color: #F9FAF8;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 150px;
+  margin: 60px auto;
+  font-size: 18px;
+}
+
+.cta-heading {
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+
+.cta-text > p {
+  margin-top: 0;
+}
+
+.cta-button {
+  padding: 8px 36px;
+  border-radius: 8px;
+  border: 2px solid #F9FAF8;
+  font-size: 20px;
 }
 
 .footer {
   text-align: center;
   font-size: 18px;
-  padding: 1em;
+  padding: 36px
 }
