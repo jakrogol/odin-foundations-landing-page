@@ -69,6 +69,32 @@ body {
   align-items: center;
 }
 
+.random-info {
+  text-align: center;
+}
+
+.tidbit-container {
+  display: flex;
+  gap: 36px;
+  justify-content: center;
+  padding-bottom: 60px;
+}
+
+.tidbit {
+  max-width: 150px;
+}
+
+.tidbit-image {
+  border: 3px solid #3882F6;
+  border-radius: 8px;
+  height: 140px;
+}
+
+.random-header {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1F2937;
+}
 
 
 .testimonial-container {
