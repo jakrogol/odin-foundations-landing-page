@@ -96,9 +96,28 @@ body {
   color: #1F2937;
 }
 
-
 .testimonial-container {
   background-color: #E5E7EB;
+}
+
+.testimonial {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
+  color: #1F2937;
+}
+
+.testimonial-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 200;
+  margin-bottom: 0;
+}
+
+.testimonial-author {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: right;
 }
 
 .call-to-action {
