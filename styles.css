@@ -4,16 +4,16 @@
 
 body {
   margin: 0 auto;
+  font-size: 18px;
 }
 
 .header-container, .footer {
   background-color: #1F2937;
   color: #E5E7EB;
-  font-size: 18px;
 }
 
 .header-container {
-  padding-bottom: 60px;
+  padding-bottom: 80px;
 }
 
 .menu-bar {
@@ -63,6 +63,7 @@ body {
 .header-image {
   display: flex;
   width: 500px;
+  height: 250px;
   background-color: #777;
   justify-content: center;
   align-items: center;
@@ -74,19 +75,19 @@ body {
 
 .tidbit-container {
   display: flex;
-  gap: 36px;
+  gap: 50px;
   justify-content: center;
-  padding-bottom: 60px;
+  padding-bottom: 80px;
 }
 
 .tidbit {
-  max-width: 150px;
+  max-width: 175px;
 }
 
 .tidbit-image {
   border: 3px solid #3882F6;
   border-radius: 8px;
-  height: 140px;
+  height: 175px;
 }
 
 .random-header {
@@ -102,7 +103,7 @@ body {
 .testimonial {
   max-width: 800px;
   margin: 0 auto;
-  padding: 60px 0;
+  padding: 80px 0;
   color: #1F2937;
 }
 
@@ -127,8 +128,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 150px;
-  margin: 60px auto;
+  padding: 24px 100px;
+  margin: 80px auto;
   font-size: 18px;
 }
 
